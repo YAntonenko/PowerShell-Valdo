@@ -1,0 +1,13 @@
+PS C:\Users\Administrator> Get-host
+
+
+Name             : ConsoleHost
+Version          : 5.1.20348.2760
+InstanceId       : 55dfda34-7d9c-456c-9691-14b5679eed0b
+UI               : System.Management.Automation.Internal.Host.InternalHostUserInterface
+CurrentCulture   : et-EE
+CurrentUICulture : en-US
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleColorProxy
+DebuggerEnabled  : True
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.LocalRunspace

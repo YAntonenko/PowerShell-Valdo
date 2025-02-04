@@ -1,0 +1,12 @@
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  shpamsvc           Shared PC Account Manager
+Running  ShellHWDetection   Shell Hardware Detection
+Stopped  SharedAccess       Internet Connection Sharing (ICS)
+Stopped  smphost            Microsoft Storage Spaces SMP
+Running  Spooler            Print Spooler
+Stopped  spice-agent        Spice Agent
+Stopped  SNMPTRAP           SNMP Trap
+Stopped  SensorDataService  Sensor Data Service
+Stopped  Sense              Windows Defender Advanced Threat Pr...
+Running  SENS               System Event Notification Service

@@ -1,0 +1,15 @@
+#Yuna Antonenko IT-24
+cls
+Write-Host 
+Write-Host 'Host Name AD1'
+Write-Host '*******************************'
+Write-Host 'OS Name Microsoft Windows Server 2022 Standard Evaluation'
+Write-Host '*******************************'
+Write-Host 'Total Physical Memory 4 059 MB'
+Write-Host '*******************************'
+Write-Host 'Processor QEMU Virtual CPU version 2.5+'
+Write-Host '*******************************'
+Write-Host 'VideoController Microsoft Basic Display Adapter'
+Write-Host '*******************************'
+Write-Host 'Domain ANTONENKO.LOCAL'
+Write-Host '*******************************'

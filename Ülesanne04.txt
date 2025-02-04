@@ -1,0 +1,15 @@
+PS C:\windows\temp> Get-ChildItem -Recurse *.log
+
+
+    Directory: C:\windows\temp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        04.02.2025     14:09         239058 MpSigStub.log
+-a----        04.02.2025     13:59             98 silconfig.log
+-a----        04.02.2025     13:59         153084 vdagent.log
+-a----        04.02.2025     13:59          30717 vdservice.log
+
+
+PS C:\windows\temp>

@@ -1,0 +1,7 @@
+---------- Yuna Antonenko ----------
+      Let's learn PowerShell :)
+
+PS C:\Users\Administrator>
+
+
+
