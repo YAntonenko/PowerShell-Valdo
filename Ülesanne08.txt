@@ -1,0 +1,8 @@
+﻿
+function Get-CircleArea($radius) {
+    Write-Host  "Area: $([math]::Round([math]::PI * $radius * $radius, 2))"
+    }
+function Clean-FullName($fullName){
+    $cleanName = $fullname.Trim() -replace "^\.+|\.+", "" -replace "\s+", " "
+    writ-host $cleanName.Toupper()
+}
