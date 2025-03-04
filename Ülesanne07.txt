@@ -1,0 +1,14 @@
+﻿#Yuna Antonenko IT-24
+cls
+
+write-host "Computer name: " $env:COMPUTERNAME
+write-host "Total number of logical drives: "$MaximumDriveCount
+
+Get-PSDrive -PSProvider FileSystem | ForEach-Object {
+    $disk = Get-Volume -DriveLetter $_.Name
+    if ($disk) {
+        $freePercent = ($disk.SizeRemaining / $disk.Size)* 100
+        Write-Host "Drive $($_.Name): $([math]::Round(100 - $freePercent, 2))% fuul"
+        if ($freePercent -lt 50) {Write-Host "Filling up"}
+        }
+    }
